@@ -84,7 +84,7 @@ button {
     grid: minmax(82px, auto) / minmax(0, 276px) minmax(0, 350px);
 }
 
-.modal .event-title a {
+.modal .event-title a:first-child {
     width: 100%;
     max-width: 200px;
     transform: translateX(15px);
