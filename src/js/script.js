@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     if (!sessionStorage.bannerWatched) {
-        //setTimeout(() => {
+        setTimeout(() => {
             const modal = document.querySelector('.modal');
             modal.style.display = 'flex';
             document.body.style.overflow = 'hidden';
@@ -23,6 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     location.href = href;
                 });
             });
-        //}, 15000);
+        }, 15000);
     }
 });
